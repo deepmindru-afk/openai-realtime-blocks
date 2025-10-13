@@ -52,23 +52,23 @@ function HeroLanding() {
     <section className="space-y-6 pb-12 pt-16 lg:py-18">
       <div className="container flex max-w-[64rem] flex-col items-center gap-5 text-center">
         <Link
-          href="https://github.com/cameronking4"
+          href="https://www.portalos.ru"
           className={cn(buttonVariants({ variant: "outline", size: "sm" }), "animate-fade-up opacity-0")}
           style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
           target="_blank"
         >
-          <span className="mr-3">🎉</span> Welcome to the AI Component Library!{" "}
+          <span className="mr-3">🎉</span> привет!{" "}
         </Link>
         <h1 className="text-balance font-urban text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-[66px]">
-          Add{"  "}
+          Диалоговая{"  "}
           <span className="text-gradient_indigo-purple font-extrabold">
-            Voice AI
+            мультиагентная
           </span> 
-          {" "}into your Next Apps with
-          <SparklesText text={"OpenAI Realtime Blocks"}/>
+          {" "}система
+          <SparklesText text={"Портал ОС"}/>
         </h1>
         <p className="text-muted-foreground">
-          A library of pre-built UI components for AI to copy and paste in your Next.js apps.
+          Платформа для разработки агентов на основе искусственного интеллекта
         </p>
         <div
           className="flex justify-center space-x-2 md:space-x-4 mt-2"
@@ -79,7 +79,7 @@ function HeroLanding() {
             prefetch={true}
             className={cn(buttonVariants({ size: "lg"}), "gap-2")}
           >
-            <span>Browse Components</span>
+            <span>узнать больше</span>
             <ArrowRight className="size-4" />
           </Link>
           <Link
@@ -91,7 +91,7 @@ function HeroLanding() {
             <Star className="size-4" />
             {stars !== null && (
               <span className="group-hover:text-yellow-400 transition-all duration-300 ease-in-out mr-2">
-                {stars}{" "} {stars !== null && (stars === 1 ? "star " : "stars ")}{" "} on GitHub
+                {stars}{" "} {stars !== null && (stars === 1 ? "star " : "stars ")}{" "} o_О
               </span>
             )}
           </Link>
