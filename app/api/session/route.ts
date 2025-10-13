@@ -6,7 +6,7 @@ export async function POST() {
             throw new Error(`OPENAI_API_KEY is not set`);
 
         }
-        const response = await fetch("https://api.openai.com/v1/realtime/sessions", {
+        const response = await fetch("https://llm.portalos.ru/v1/realtime/sessions", {
             method: "POST",
             headers: {
                 Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
