@@ -1,12 +1,12 @@
 export const siteConfig = {
-  name: "OpenAI Realtime Blocks",
-  url: "https://openai-realtime-blocks.vercel.app",
-  description: "OpenAI Realtime Blocks is a UI Library built with React and TailwindCSS to drop-in Voice AI components into your application with ease.",
-  author: "cameronking4",
+  name: "portal os",
+  url: "https://www.portalos.ru",
+  description: "Realtime Blocks is a UI Library built with React and TailwindCSS to drop-in Voice AI components into your application with ease.",
+  author: "portal",
   links: {
-    twitter: "https://x.com/cameronyking4",
-    github: "https://github.com/cameronking4/openai-realtime-blocks",
-    portfolio: "https://www.linkedin.com/in/cameronyking",
+    twitter: "https://www.portalos.ru",
+    github: "https://www.portalos.ru",
+    portfolio: "https://www.portalos.ru",
   },
   docs: [
     {
