@@ -32,21 +32,6 @@ export default async function Page() {
 function HeroLanding() {
   const [stars, setStars] = useState(null);
 
-  useEffect(() => {
-    const getRepoStars = async () => {
-      try {
-        const res = await fetch("https://api.github.com/repos/cameronking4/openai-realtime-blocks", {
-          cache: "no-store",
-        });
-        const data = await res.json();
-        setStars(data.stargazers_count);
-      } catch (error) {
-        console.error("Failed to fetch repo stars:", error);
-      }
-    };
-
-    getRepoStars();
-  }, []);
 
   return (
     <section className="space-y-6 pb-12 pt-16 lg:py-18">
@@ -81,19 +66,6 @@ function HeroLanding() {
           >
             <span>узнать больше</span>
             <ArrowRight className="size-4" />
-          </Link>
-          <Link
-            href={siteConfig.links.github}
-            target="_blank"
-            rel="noreferrer"
-            className={cn(buttonVariants({ variant: "outline", size: "lg" }), "px-5 space-x-2")}
-          >
-            <Star className="size-4" />
-            {stars !== null && (
-              <span className="group-hover:text-yellow-400 transition-all duration-300 ease-in-out mr-2">
-                {stars}{" "} {stars !== null && (stars === 1 ? "star " : "stars ")}{" "} o_О
-              </span>
-            )}
           </Link>
         </div>
       </div>
