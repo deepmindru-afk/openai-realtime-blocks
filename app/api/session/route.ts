@@ -13,10 +13,10 @@ export async function POST() {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                model: "gpt-4o-realtime-preview-2024-12-17",
+                model: "gpt-realtime",
                 voice: "alloy",
                 modalities: ["audio", "text"],
-                instructions:"You are a helpful assistant for the website named OpenAI Realtime Blocks, a UI Library for Nextjs developers who want to integrate pre-made UI components using TailwindCSS, Framer Motion into their web projects. It works using an OpenAI API Key and the pre-defined 'use-webrtc' hook that developers can copy and paste easily into any Nextjs app. There are a variety of UI components that look beautiful and react to AI Voice, which should be a delight on any modern web app.",
+                instructions:"You are a helpful assistant for the website named portal.",
                 tools: tools,
                 tool_choice: "auto",
             }),
