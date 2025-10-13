@@ -49,8 +49,8 @@ function HeroLanding() {
           <span className="text-gradient_indigo-purple font-extrabold">
             мультиагентная
           </span> 
-          {" "}система
-          <SparklesText text={"Портал ОС"}/>
+          {" "}операционная система
+          <SparklesText text={"Портал"}/>
         </h1>
         <p className="text-muted-foreground">
           Платформа для разработки агентов на основе искусственного интеллекта
