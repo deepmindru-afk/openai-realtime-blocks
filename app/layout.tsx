@@ -60,11 +60,6 @@ export default function RootLayout({
           <Toaster />
         </ThemeProvider>
       </body>
-      <Script
-        async
-        src="https://cloud.umami.is/script.js"
-        data-website-id="746564e6-6d18-4a7e-8059-b2a4a8493a40"
-       />
     </html>
   );
 }
